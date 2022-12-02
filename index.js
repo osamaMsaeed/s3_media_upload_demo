@@ -1,4 +1,4 @@
-import { config } from "./config";
+import { config } from "./config.js"; //if not importing not works, use vs code live-server extension
 
 const file = document.getElementById("input-media");
 const upload = document.getElementById("upload");
